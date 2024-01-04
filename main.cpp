@@ -35,5 +35,4 @@ int main()
     cin >>number2;
     result=number1+number2;
     cout<<result<<endl;
-  //  cout<<"Hello World"<<endl;
     return 0;
