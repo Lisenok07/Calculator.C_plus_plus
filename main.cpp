@@ -16,8 +16,14 @@ class Calculator
 
 Calculator::Calculator(int n1,int n2, int res)
 {
-if ((n1=0 || n2 = 0)&&(operation=/)){
+if ((n1=='0' || n2 == '0')&&(operation=='/'))
+{
         cout<<"Error"<<endl;    
+}
+    if ((n1=='0' && n2 == '0')&&(operation =='/'))
+    {
+        cout<<"Error1"<<endl;
+    }
 }
 
 int main()
