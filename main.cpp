@@ -8,15 +8,16 @@ class Calculator
      int number1;
      int number2;
      int result;
-    
+    char operation;
+
     public:
      Calculator (int n1, int n2, int res);
-      int Operation();
 };
 
 Calculator::Calculator(int n1,int n2, int res)
 {
-    
+if ((n1=0 || n2 = 0)&&(operation=/)){
+        cout<<"Error"<<endl;    
 }
 
 int main()
